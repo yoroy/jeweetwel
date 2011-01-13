@@ -1,3 +1,26 @@
 body {
   background-color: #fff;
 }
+
+
+#page-wrapper {
+  margin-top: 1em;
+}
+
+#header {
+  margin-left: 16%;
+}
+
+.submitted {
+  margin-left: -12em;
+  text-align: right;
+}
+
+.node-author {
+  display: none;
+}
+
+body.not-front .field-type-image {
+  text-align: center;
+  margin: 0 0 0.5em 1.5em;
+}

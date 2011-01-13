@@ -4,5 +4,6 @@ name = Jeweetwel
 description = Subtheme of Dingus. 
 version = VERSION
 core = 7.x
+base theme = dingus
 engine = phptemplate
 stylesheets[all][] = jeweetwel.css
