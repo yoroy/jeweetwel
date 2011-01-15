@@ -4,16 +4,19 @@ body {
 
 #site-name a:link,
 #site-name a:visited {
-  color: #FF7600;
+  color: #D2540D;
   font-weight: normal;
 }
 
 a:visited,
 a:link,
 #site-name a:hover,
-.node ul.links a, .comment ul.links a {
-  color: #FF7600;
+.node ul.links a,
+.comment ul.links a,
+li a.active {
+  color: #D2540D;
 }
+
 
 #page-wrapper {
   margin-top: 1em;
@@ -35,6 +38,10 @@ h1#page-title {
     font-size: 3.5em;
 }
 
+#block-system-main .node {
+    margin-bottom: 4.5em;
+}
+
 div.meta {
   margin-bottom: -2.75em;
 }
@@ -54,4 +61,9 @@ body.not-front .field-type-image {
   padding: 2em 0;
   border: #ddd 1px solid;
   border-width: 1px 0;
+}
+
+.pager li:hover,
+.pager li:hover a {
+  background-color: #D2540D;
 }
