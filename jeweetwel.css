@@ -2,8 +2,16 @@ body {
   background-color: #fff;
 }
 
+#site-name a:link,
+#site-name a:visited {
+  color: #FF7600;
+  font-weight: normal;
+}
+
 a:visited,
-a:link {
+a:link,
+#site-name a:hover,
+.node ul.links a, .comment ul.links a {
   color: #FF7600;
 }
 
@@ -12,19 +20,27 @@ a:link {
 }
 
 #header {
+  margin-left: 16%;
 }
 
 #sidebar-second {
   margin-top: 12em;
 }
 
+#footer {
+  border-top: 0;
+}
+
+h1#page-title {
+    font-size: 3.5em;
+}
+
 div.meta {
-  margin-bottom: -2.5em;
+  margin-bottom: -2.75em;
 }
 
 .submitted {
   margin-left: -12em;
-  text-align: right;
 }
 
 .node-author {
@@ -32,6 +48,10 @@ div.meta {
 }
 
 body.not-front .field-type-image {
+  float: none;
   text-align: center;
-  margin: 0 0 0.5em 1.5em;
+  margin: 0;
+  padding: 2em 0;
+  border: #ddd 1px solid;
+  border-width: 1px 0;
 }
