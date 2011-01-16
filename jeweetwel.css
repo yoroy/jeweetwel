@@ -22,7 +22,6 @@ a:hover {
   color: #000;
 }
 
-
 #page-wrapper {
   margin-top: 1em;
 }
@@ -42,7 +41,6 @@ a:hover {
 h1#page-title {
     font-size: 3.5em;
 }
-
 
 h2 {
   margin: 0 0 0.25em 0;
@@ -64,7 +62,6 @@ body.not-front .field-type-image {
   border: #ddd 1px solid;
   border-width: 1px 0;
 }
-
 
 .item-list .pager li {
     -moz-border-radius: 0;
