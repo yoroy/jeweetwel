@@ -84,11 +84,7 @@ body.not-front .field-type-image {
     color: #fff;
 }
 
-#block-node-recent td {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-}
-
 blockquote {
   font-style: italic;
+  margin-left: 2em;
 }
