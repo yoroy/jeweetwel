@@ -1,10 +1,11 @@
 body {
   background-color: #fff;
+  font-size: 1.25em;
 }
 
 #site-name a:link,
 #site-name a:visited {
-  color: #D2540D;
+  color: #F3710C;
   font-weight: normal;
 }
 
@@ -14,7 +15,11 @@ a:link,
 .node ul.links a,
 .comment ul.links a,
 li a.active {
-  color: #D2540D;
+  color: #F3710C;
+}
+
+a:hover {
+  color: #000;
 }
 
 
@@ -38,16 +43,13 @@ h1#page-title {
     font-size: 3.5em;
 }
 
+
+h2 {
+  margin: 0 0 0.25em 0;
+}
+
 #block-system-main .node {
-    margin-bottom: 4.5em;
-}
-
-div.meta {
-  margin-bottom: -2.75em;
-}
-
-.submitted {
-  margin-left: -12em;
+    margin-bottom: 3em;
 }
 
 .node-author {
@@ -63,7 +65,30 @@ body.not-front .field-type-image {
   border-width: 1px 0;
 }
 
+
+.item-list .pager li {
+    -moz-border-radius: 0;
+    margin: 0 0.25em 0 0;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+}
+
 .pager li:hover,
 .pager li:hover a {
-  background-color: #D2540D;
+  background-color: #F3710C;
+  color: #fff;
+}
+
+.pager li.pager-current {
+    background-color: #F3710C;
+    color: #fff;
+}
+
+#block-node-recent td {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+blockquote {
+  font-style: italic;
 }
