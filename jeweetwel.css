@@ -1,6 +1,6 @@
 body {
   background-color: #fff;
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 #site-name a:link,
@@ -16,10 +16,13 @@ a:link,
 .comment ul.links a,
 li a.active {
   color: #F3710C;
+  text-decoration: none;
 }
 
-a:hover {
-  color: #000;
+a:hover,
+.node ul.links a:hover,
+.comment ul.links a:hover {
+  text-decoration: underline;
 }
 
 #page-wrapper {
@@ -27,27 +30,56 @@ a:hover {
 }
 
 #header {
-  margin-left: 16%;
+  margin-left: 17.7%;
+}
+
+#content,
+.front #content {
+  margin-top: 1em;
 }
 
 #sidebar-second {
-  margin-top: 12em;
+  margin-top: -5.9em;
 }
 
 #footer {
   border-top: 0;
 }
 
+#site-slogan,
+#site-name {
+  float: left;
+}
+#site-name {
+  font-size: 1.5em;
+}
+#site-slogan {
+  margin: 0.2em 0 0 1em;
+}
+
 h1#page-title {
-    font-size: 3.5em;
+    font-size: 2.5em;
+    padding-left: 0.15em;
 }
 
 h2 {
   margin: 0 0 0.25em 0;
 }
 
+#header a, #navigation a, #main h2 a, .menu a {
+    text-decoration: none;
+}
+
+#main h2 a {
+  color: #444;
+}
+#main h2 a:hover {
+  color: #F3710C;
+}
+
 #block-system-main .node {
     margin-bottom: 3em;
+    padding: 0 0.5em;
 }
 
 .node-author {
@@ -58,9 +90,8 @@ body.not-front .field-type-image {
   float: none;
   text-align: center;
   margin: 0;
-  padding: 2em 0;
-  border: #ddd 1px solid;
-  border-width: 1px 0;
+  padding: 1em 0;
+  border-width: 0;
 }
 
 .item-list .pager li {
@@ -85,3 +116,49 @@ blockquote {
   font-style: italic;
   margin-left: 2em;
 }
+
+.node .submitted, .field-type-taxonomy-term-reference {
+    letter-spacing: 0;
+}
+
+ul.primary li.active a {
+    background-color: #fff;
+}
+
+.node ul.links li,
+.comment ul.links li {
+  padding: 0;  
+}
+
+div.meta {
+  margin: 0 0 1em 0;
+  padding: 0;
+  line-height: 90%;
+}
+
+.front .pager {
+  display: none;
+}
+
+.field-type-image {
+  margin-left: -7em;
+}
+
+.sidebar .block ul.menu li {
+    border-width: 0;
+}
+
+#block-node-recent {
+  margin-top: 8em;
+}
+#block-node-recent a {
+  color: #444;
+  font-family: Palatino,"Hoefler Text","Palatino Linotype",serif;
+}
+#block-node-recent a:hover {
+  color: #F3710C;
+}
+
+
+
+
