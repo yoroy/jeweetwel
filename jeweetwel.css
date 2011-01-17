@@ -141,7 +141,6 @@ div.meta {
 }
 
 .field-type-image {
-  margin-left: -7em;
 }
 
 .sidebar .block ul.menu li {
@@ -150,7 +149,19 @@ div.meta {
 
 #block-node-recent {
   margin-top: 8em;
+  line-height: 125%;
 }
+
+#block-node-recent td {
+  padding: 0.5em;
+}
+
+tbody,
+tr.odd,
+tr.even {
+  border-color: #eee;
+}
+
 #block-node-recent a {
   color: #444;
   font-family: Palatino,"Hoefler Text","Palatino Linotype",serif;
