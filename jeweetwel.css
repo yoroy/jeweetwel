@@ -26,7 +26,7 @@ a:hover,
 }
 
 #page-wrapper {
-  margin-top: 1em;
+  margin-top: 3em;
 }
 
 #header {
@@ -177,7 +177,3 @@ tr.even {
 #block-node-recent a:hover {
   color: #F3710C;
 }
-
-
-
-
