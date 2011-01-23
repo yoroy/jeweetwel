@@ -5,7 +5,7 @@ body {
 
 #site-name a:link,
 #site-name a:visited {
-  color: #F3710C;
+  color: #116798;
   font-weight: normal;
 }
 
@@ -15,14 +15,15 @@ a:link,
 .node ul.links a,
 .comment ul.links a,
 li a.active {
-  color: #F3710C;
-  text-decoration: none;
+  color: #116798;
+  text-decoration: underline;
 }
 
 a:hover,
 .node ul.links a:hover,
 .comment ul.links a:hover {
   text-decoration: underline;
+  background-color: #FFFFD6;
 }
 
 #page-wrapper {
@@ -35,6 +36,15 @@ a:hover,
 
 #header .section {
   margin-left: 3em;
+}
+
+#header .block {
+  clear: left;
+  padding-top: 1em;
+  font-family: Palatino,"Hoefler Text","Palatino Linotype",serif;
+  font-style: italic;
+  font-size: 85%;
+  color: #666;
 }
 
 #content,
@@ -55,10 +65,11 @@ a:hover,
   float: left;
 }
 #site-name {
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 #site-slogan {
-  margin: 0.2em 0 0 1em;
+  font-size: 1.25em;
+  margin: 0.875em 0 0 1em;
 }
 
 h1#page-title {
@@ -75,15 +86,22 @@ h2 {
 }
 
 #main h2 a {
-  color: #444;
 }
 #main h2 a:hover {
-  color: #F3710C;
+  color: #116798;
+  text-decoration: underline;
+  background-color: #FFFFD6;
 }
 
 #block-system-main .node {
     margin-bottom: 3em;
-    padding: 0 0.5em;
+    padding: 0.5em;
+    border-top: #ddd 1px solid;
+}
+
+.front .node-sticky {
+  font-size: 133%;
+  margin: 0;
 }
 
 .node-author {
@@ -99,7 +117,7 @@ body.not-front .field-type-image {
 }
 
 .field-type-image a img:hover {
-    border-color: #F3710C;
+    border-color: #116798;
 }
 
 .item-list .pager li {
@@ -111,12 +129,12 @@ body.not-front .field-type-image {
 
 .pager li:hover,
 .pager li:hover a {
-  background-color: #F3710C;
+  background-color: #FFFFD6;
   color: #fff;
 }
 
 .pager li.pager-current {
-    background-color: #F3710C;
+    background-color: #116798;
     color: #fff;
 }
 
@@ -139,7 +157,7 @@ ul.primary li.active a {
 }
 
 div.meta {
-  margin: 0 0 1em 0;
+  margin: 0.5em 0;
   padding: 0;
   line-height: 90%;
 }
@@ -171,9 +189,5 @@ tr.even {
 }
 
 #block-node-recent a {
-  color: #444;
   font-family: Palatino,"Hoefler Text","Palatino Linotype",serif;
-}
-#block-node-recent a:hover {
-  color: #F3710C;
 }
